@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
-namespace cs_0915_1
+namespace cs_con_dictionary
 {
     class Program
     {
