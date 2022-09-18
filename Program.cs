@@ -42,6 +42,29 @@ namespace cs_con_dictionary
                 Console.WriteLine( $"VALUE:{value}" );
             }
 
+            // 配列化 : 要 System.Linq
+            var arr = openWith1.Keys.ToArray();
+
+            // Length
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine( $"KEY:{arr[i]}" );
+            }
+
+            // List化 : 要 System.Linq
+            var list = openWith1.Values.ToList();
+
+            foreach (var value in list)
+            {
+                Console.WriteLine( $"VALUE:{value}" );
+            }
+
+            // Count
+            for (int i = 0; i < list.Count; i++)
+            {
+                Console.WriteLine( $"VALUE:{list[i]}" );
+            }
+
         }
     }
 }
