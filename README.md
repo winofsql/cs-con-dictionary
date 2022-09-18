@@ -14,7 +14,12 @@ openWith2.Add(".txt", "notepad");
 openWith2.Add(".bmp", "paint");
 openWith2.Add(".dib", "paint");
 openWith2.Add(".rtf", "wordpad");
+```
 
+![image](https://user-images.githubusercontent.com/1501327/190894341-b205d393-cd11-4508-849b-5023acf546f4.png)
+
+
+```cs
 foreach (var pair in openWith1)
 {
     Console.WriteLine( $"KEY:{pair.Key} => VALUE:{pair.Value}" );
