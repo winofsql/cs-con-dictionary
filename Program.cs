@@ -1,4 +1,3 @@
-using System.Linq;
 using System;
 using System.Collections.Generic;
 
@@ -43,7 +42,7 @@ namespace cs_con_dictionary
                 Console.WriteLine( $"VALUE:{value}" );
             }
 
-            // 配列化 : 要 System.Linq
+            // 配列化
             var arr = openWith1.Keys.ToArray();
 
             // Length
@@ -52,7 +51,7 @@ namespace cs_con_dictionary
                 Console.WriteLine( $"KEY:{arr[i]}" );
             }
 
-            // List化 : 要 System.Linq
+            // List化
             var list = openWith1.Values.ToList();
 
             foreach (var value in list)
