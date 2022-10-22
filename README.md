@@ -40,7 +40,7 @@ foreach (var value in valueColl )
     Console.WriteLine( $"VALUE:{value}" );
 }
 
-// 配列化 : 要 System.Linq
+// 配列化
 var arr = openWith1.Keys.ToArray();
 
 // Length
@@ -49,7 +49,7 @@ for (int i = 0; i < arr.Length; i++)
     Console.WriteLine( $"KEY:{arr[i]}" );
 }
 
-// List化 : 要 System.Linq
+// List化
 var list = openWith1.Values.ToList();
 
 foreach (var value in list)
